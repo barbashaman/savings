@@ -18,6 +18,8 @@ dependencies {
     testCompile group: 'io.rest-assured', name: 'rest-assured', version: '3.0.0'
     compile 'javax.xml.bind:jaxb-api:2.3.0'
     testCompile 'io.cucumber:cucumber-java:4.2.0'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.41.0'
+
 }
 
 test {
@@ -51,5 +53,21 @@ test {
                     "${result.skippedTestCount} skipped"
         }
     }
+}
 
+configurations {
+    cucumberRuntime {
+        extendsFrom testRuntime
+    }
+}
+
+task cucumber() {
+    dependsOn assemble, compileTestJava
+    doLast {
+        javaexec {
+            main = "cucumber.api.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+            args = ['--plugin', 'pretty', '--glue', 'gradle.cucumber', 'src/test/resources']
+        }
+    }
 }
