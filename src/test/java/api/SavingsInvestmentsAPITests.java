@@ -1,5 +1,6 @@
 package api;
 
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.when;
@@ -8,8 +9,9 @@ import static org.hamcrest.core.IsCollectionContaining.hasItems;
 
 public class SavingsInvestmentsAPITests {
 
+    @Tag("API")
     @Test
-    public void savingsInvestmentsGETTest() {
+    public void savingsInvestmentsGetMockTest() {
 
 
         when()
@@ -20,6 +22,5 @@ public class SavingsInvestmentsAPITests {
                         "id", equalTo(1),
                         "meses", hasItems("112", "124", "136", "148"),
                         "valor", hasItems("2.802", "3.174", "3.564", "3.971"));
-
     }
 }
