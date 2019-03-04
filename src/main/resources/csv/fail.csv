@@ -1,0 +1,2 @@
+TestType,Profile,Application,Savings,Time,timeType,ErrorMessage,ErrorMessage2
+FAIL,Para você,19.00,19.00,0,meses,Valor mínimo de 20.00,Valor esperado não confere

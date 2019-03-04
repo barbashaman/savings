@@ -6,39 +6,49 @@ import org.openqa.selenium.WebElement;
 
 public class InvestmentSimulationPageObjects {
 
-    public WebElement getParaVoceRadioButton(WebDriver driver){
+    private WebDriver driver;
+
+    public InvestmentSimulationPageObjects(WebDriver driver) {
+        this.driver = driver;
+    }
+
+    public WebElement getParaVoceRadioButton(){
         return driver.findElement(By.cssSelector("input[name='perfil'][value='paraVoce']"));
     }
 
-    public WebElement getParaSuaEmpresaRadioButton(WebDriver driver){
+    public WebElement getParaSuaEmpresaRadioButton(){
         return driver.findElement(By.cssSelector("input[name='perfil'][value='paraEmpresa']"));
     }
 
-    public WebElement getValorAplicarTextField(WebDriver driver){
+    public WebElement getValorAplicarTextField(){
         return driver.findElement(By.id("valorAplicar"));
     }
 
-    public WebElement getValorInvestirTextField(WebDriver driver){
+    public WebElement getValorInvestirTextField(){
         return driver.findElement(By.id("valorInvestir"));
     }
 
-    public WebElement getTempoInvestimentoTextField(WebDriver driver){
-        return driver.findElement(By.id("tempo"));
+    public WebElement getTempoInvestimentoTextField(){
+        return driver.findElement(By.cssSelector("input[id='tempo']"));
     }
 
-    public WebElement getAnoButton(WebDriver driver){
+    public WebElement getTipoTempoDropDown(){
+        return driver.findElement(By.cssSelector("a[class*='btSelect']"));
+    }
+
+    public WebElement getAnosButton(){
         return driver.findElement(By.cssSelector("a[rel='A']"));
     }
 
-    public WebElement getMesesButton(WebDriver driver){
+    public WebElement getMesesButton(){
         return driver.findElement(By.cssSelector("a[rel='M']"));
     }
 
-    public WebElement getLimparFormularioButton(WebDriver driver){
+    public WebElement getLimparFormularioButton(){
         return driver.findElement(By.cssSelector("a[class*='btnLimpar']"));
     }
 
-    public WebElement getSimularButton(WebDriver driver){
-        return driver.findElement(By.cssSelector("a[class*='btnSimular']"));
+    public WebElement getSimularButton(){
+        return driver.findElement(By.cssSelector("button[class*='btnSimular']"));
     }
 }
