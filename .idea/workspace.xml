@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="070cb124-83f6-40dd-93f1-f7d3adfffd60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/browser/Browser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ErrorsPageObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ResultSimultionPageObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/ErrorsTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/InvestmentsTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/ResultSimulationTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/csv/fail.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/csv/savings.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/InvestmentSimulationTestCases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/api/SavingsInvestmentsAPITests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/api/SavingsInvestmentsAPITests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/br.com.sicredi.savings.main.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/api/SavingsInvestmentsAPITests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/api/SavingsInvestmentsAPITests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/InvestmentSimulationPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/InvestmentSimulationPageObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/csv/savings.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/csv/savings.csv" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -52,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testcases/InvestmentSimulationTestCases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="163">
+              <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/api/SavingsInvestmentsAPITests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+            <state relative-caret-position="203">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/csv/savings.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="45" />
+            <state relative-caret-position="75">
+              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
             </state>
           </provider>
           <provider editor-type-id="csv-table-editor">
@@ -109,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/browser/Browser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="203">
-              <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,7 +133,6 @@
         <option value="$PROJECT_DIR$/src/main/java/tasks.java" />
         <option value="$PROJECT_DIR$/src/main/java/tasks/investmentsTasks.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/InvestmentSimulationPageObjects.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/csv/savings.csv" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/ResultSimultionPageObjects.java" />
         <option value="$PROJECT_DIR$/src/main/java/tasks/ResultSimulationTasks.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/ErrorsPageObjects.java" />
@@ -168,6 +141,7 @@
         <option value="$PROJECT_DIR$/src/main/java/tasks/InvestmentsTasks.java" />
         <option value="$PROJECT_DIR$/src/test/java/testcases/InvestmentSimulationTestCases.java" />
         <option value="$PROJECT_DIR$/src/main/java/browser/Browser.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/csv/savings.csv" />
       </list>
     </option>
   </component>
@@ -268,13 +242,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="savings" type="b2602c69:ProjectViewProjectNode" />
-              <item name="savings" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -284,7 +251,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551735536973" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551736067622" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../integration-services" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -312,22 +279,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SavingsInvestmentsAPITests.savingsInvestmentsGetMockTest">
-    <configuration name="1 =&gt; SUCESSO, meses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in br.com.sicredi.savings.test">
+    <configuration name="All in br.com.sicredi.savings.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="br.com.sicredi.savings.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.InvestmentSimulationTestCases" />
-      <option name="METHOD_NAME" value="savingsInvestmentSuccessfulTest(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
-      <option name="TEST_OBJECT" value="uniqueId" />
-      <uniqueIds>
-        <uniqueId value="[engine:junit-jupiter]/[class:testcases.InvestmentSimulationTestCases]/[test-template:savingsInvestmentSuccessfulTest(org.junit.jupiter.params.aggregator.ArgumentsAccessor)]/[test-template-invocation:#1]" />
-      </uniqueIds>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -397,11 +353,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in br.com.sicredi.savings.test" />
+        <item itemvalue="JUnit.InvestmentSimulationTestCases.savingsInvestmentSuccessfulTest" />
         <item itemvalue="JUnit.SavingsInvestmentsAPITests.savingsInvestmentsGetMockTest" />
         <item itemvalue="JUnit.InvestmentSimulationTestCases" />
         <item itemvalue="JUnit.InvestmentSimulationTestCases.savingsInvestmentFailTest" />
-        <item itemvalue="JUnit.InvestmentSimulationTestCases.savingsInvestmentSuccessfulTest" />
-        <item itemvalue="JUnit.1 =&gt; SUCESSO, meses" />
       </list>
     </recent_temporary>
   </component>
@@ -419,15 +375,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InvestmentSimulationTestCases - 2019.03.04 at 18h 10m 39s.xml">
-      <configuration name="InvestmentSimulationTestCases" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InvestmentSimulationTestCases - 2019.03.04 at 18h 10m 53s.xml">
-      <configuration name="InvestmentSimulationTestCases" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InvestmentSimulationTestCases_savingsInvestmentSuccessfulTest - 2019.03.04 at 18h 11m 27s.xml">
-      <configuration name="InvestmentSimulationTestCases.savingsInvestmentSuccessfulTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="InvestmentSimulationTestCases_savingsInvestmentSuccessfulTest - 2019.03.04 at 18h 12m 22s.xml">
       <configuration name="InvestmentSimulationTestCases.savingsInvestmentSuccessfulTest" configurationId="JUnit" />
     </history-entry>
@@ -449,6 +396,15 @@
     <history-entry file="InvestmentSimulationTestCases - 2019.03.04 at 18h 34m 45s.xml">
       <configuration name="InvestmentSimulationTestCases" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="InvestmentSimulationTestCases - 2019.03.04 at 18h 38m 43s.xml">
+      <configuration name="InvestmentSimulationTestCases" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SavingsInvestmentsAPITests_savingsInvestmentsGetMockTest - 2019.03.04 at 18h 39m 03s.xml">
+      <configuration name="SavingsInvestmentsAPITests.savingsInvestmentsGetMockTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InvestmentSimulationTestCases_savingsInvestmentSuccessfulTest - 2019.03.04 at 18h 45m 10s.xml">
+      <configuration name="InvestmentSimulationTestCases.savingsInvestmentSuccessfulTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -462,13 +418,13 @@
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.48857453" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48857453" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.19543974" />
-      <window_info anchor="bottom" x="283" y="1107" width="1362" height="706" id="Terminal" order="8" type="FLOATING" weight="0.2437432" />
+      <window_info anchor="bottom" x="283" y="1107" width="1362" height="706" id="Terminal" order="8" type="FLOATING" visible="true" weight="0.2437432" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3297062" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3297062" />
@@ -483,7 +439,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="11" visible="true" weight="0.18516542" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="11" visible="true" weight="0.18516542" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
@@ -678,16 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/csv/savings.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="45" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/csv/fail.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="15">
@@ -698,10 +644,10 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/InvestmentSimulationTestCases.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/browser/Browser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="203">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -710,22 +656,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/api/SavingsInvestmentsAPITests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+        <state relative-caret-position="203">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/browser/Browser.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/InvestmentSimulationTestCases.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        <state relative-caret-position="163">
+          <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/csv/savings.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
   </component>

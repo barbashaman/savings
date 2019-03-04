@@ -1,2 +1,6 @@
 TestType,Profile,Application,Savings,Time,timeType,SavingsResult
 SUCCESS,Para você,20.00,20.00,12,meses,R$ 266
+SUCCESS,Para você,40.00,40.00,24,meses,R$ 1.046
+SUCCESS,Para você,80.00,80.00,36,meses,R$ 3.167
+SUCCESS,Para você,160.00,160.00,48,meses,R$ 8.581
+SUCCESS,Para você,320.00,320.00,60,meses,R$ 21.863
