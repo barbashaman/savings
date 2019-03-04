@@ -1,6 +1,8 @@
 package testcases;
 
 import browser.Browser;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.aggregator.ArgumentsAccessor;
@@ -13,10 +15,18 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @Tag("InvestmentsSimulation")
 public class InvestmentSimulationTestCases {
-    private Browser browser = new Browser();
-    private InvestmentsTasks investments = new InvestmentsTasks(browser);
-    private ResultSimulationTasks resultSimulation = new ResultSimulationTasks(browser);
-    private ErrorsTasks errors = new ErrorsTasks(browser);
+    private Browser browser;
+    private InvestmentsTasks investments;
+    private ResultSimulationTasks resultSimulation;
+    private ErrorsTasks errors;
+
+    @BeforeEach
+    public void SetUp(){
+        browser = new Browser();
+        investments = new InvestmentsTasks(browser);
+        resultSimulation = new ResultSimulationTasks(browser);
+        errors = new ErrorsTasks(browser);
+    }
 
     @Tag("HappyPath")
     @ParameterizedTest(name = "{index} => {0}, {6}")
@@ -34,8 +44,6 @@ public class InvestmentSimulationTestCases {
 
         assertTrue(resultSimulation.isTimeCorrect(argumentsAccessor.getString(4), argumentsAccessor.getString(5)));
         assertTrue(resultSimulation.isValueCorrect(argumentsAccessor.getString(6)));
-
-        this.browser.quit();
     }
 
     @Tag("WrongValues")
@@ -54,7 +62,10 @@ public class InvestmentSimulationTestCases {
         assertTrue(errors.isApplicationErrorEnabled(argumentsAccessor.getString(6)));
         assertTrue(errors.isSavingsErrorEnabled(argumentsAccessor.getString(6)));
         assertTrue(errors.isTempoErrorEnabled(argumentsAccessor.getString(7)));
+    }
 
+    @AfterEach
+    public void tearDown(){
         this.browser.quit();
     }
 }

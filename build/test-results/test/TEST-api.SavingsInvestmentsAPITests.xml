@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="api.SavingsInvestmentsAPITests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-03-04T19:00:32" hostname="ilegra" time="1.966">
+<testsuite name="api.SavingsInvestmentsAPITests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-03-04T22:04:32" hostname="ilegra" time="1.687">
   <properties/>
-  <testcase name="savingsInvestmentsGetMockTest()" classname="api.SavingsInvestmentsAPITests" time="1.966"/>
+  <testcase name="savingsInvestmentsGetMockTest()" classname="api.SavingsInvestmentsAPITests" time="1.687"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
