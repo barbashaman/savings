@@ -16,6 +16,12 @@ project.ext {
     cucumberVersion = '4.2.5'
 }
 
+configurations {
+    cucumberRuntime {
+        extendsFrom testRuntime
+    }
+}
+
 dependencies {
     testImplementation('org.junit.jupiter:junit-jupiter:5.4.0')
     testCompile group: 'junit', name: 'junit', version: '4.12'
@@ -27,6 +33,17 @@ dependencies {
     testCompile 'io.cucumber:cucumber-java:' + cucumberVersion
     testCompile 'io.cucumber:cucumber-junit:' + cucumberVersion
 
+}
+
+task cucumber() {
+    dependsOn assemble, compileTestJava
+    doLast {
+        javaexec {
+            main = "cucumber.api.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+            args = ['--plugin', 'pretty', '--glue', 'cucumber', 'src/test/resources']
+        }
+    }
 }
 
 test {
@@ -61,3 +78,4 @@ test {
         }
     }
 }
+

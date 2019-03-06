@@ -4,6 +4,7 @@ import browser.Browser;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.pt.*;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.interactions.Actions;
 import pageObjects.ErrorsPageObjects;
 import pageObjects.InvestmentSimulationPageObjects;
@@ -39,12 +40,12 @@ public class InvestmentsStepDefs {
     }
 
     @E("queira definir o valor de aplicação {string}")
-    public void queiraDefinirOValorDeAplicação(String aplicacao) {
+    public void queiraDefinirOValorDeAplicacao(String aplicacao) {
         investment.getValorAplicarTextField().sendKeys(aplicacao);
     }
 
     @E("queira poupar por mês {string} Reais por {string} {string}")
-    public void queiraPouparPorMêsPorMeses(String valor, String tempo, String tipoTempo) {
+    public void queiraPouparPorMesPorMeses(String valor, String tempo, String tipoTempo) {
         investment.getValorInvestirTextField().sendKeys(valor);
         investment.getTempoInvestimentoTextField().sendKeys(tempo);
         investment.getTipoTempoDropDown().click();
@@ -57,13 +58,15 @@ public class InvestmentsStepDefs {
     }
 
     @Quando("eu pressionar o botão Simular")
-    public void euPressionarOBotãoSimulator() {
+    public void euPressionarOBotaoSimulator() {
         investment.getSimularButton().click();
     }
 
 
     @Então("a simulação ira mostrar o valor esperado de {string} Reais poupados")
-    public void aSimulaçãoIraMostrarOValorEsperadoDeReaisPoupados(String valorEsperado) {
+    public void aSimulacaoIraMostrarOValorEsperadoDeReaisPoupados(String valorEsperado) {
+
+        ((JavascriptExecutor) browser.getDriver()).executeScript("arguments[0].scrollIntoView(true);", results.getSavingsValueInvestmentLabel());
         new Actions(browser.getDriver()).moveToElement(results.getSavingsValueInvestmentLabel()).perform();
         assertTrue(results.getSavingsValueInvestmentLabel().getAttribute("innerText").contains(valorEsperado));
     }
@@ -81,5 +84,7 @@ public class InvestmentsStepDefs {
     public void tearDown() {
         this.browser.quit();
     }
+
+
 }
 

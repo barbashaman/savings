@@ -13,7 +13,7 @@ public class Browser {
         ChromeDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
-        options.addArguments("--headless");
+//        options.addArguments("--headless");
         this.driver = new ChromeDriver(options);
     }
 
