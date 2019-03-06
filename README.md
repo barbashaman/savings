@@ -20,6 +20,7 @@ Para executar os testes de web basta executar o comando:
 ```bash
 gradle cucumber
 ```
+Também é possível executar todos os testes através de uma IDE.
 
 ## Tecnologias utilizadas
 * JUnit 5 (JUnit Jupiter);
