@@ -12,8 +12,6 @@ public class SavingsInvestmentsAPITests {
     @Tag("API")
     @Test
     public void savingsInvestmentsGetMockTest() {
-
-
         when()
                 .get("http://5b847b30db24a100142dce1b.mockapi.io/api/v1/simulador")
                 .then()

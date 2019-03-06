@@ -1,16 +1,13 @@
 package cucumber;
 
 import browser.Browser;
-import cucumber.api.java.pt.Dado;
-import cucumber.api.java.pt.E;
-import cucumber.api.java.pt.Então;
-import cucumber.api.java.pt.Quando;
-import org.openqa.selenium.JavascriptExecutor;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
+import cucumber.api.java.pt.*;
 import org.openqa.selenium.interactions.Actions;
+import pageObjects.ErrorsPageObjects;
 import pageObjects.InvestmentSimulationPageObjects;
 import pageObjects.ResultSimultionPageObjects;
-
-import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -18,25 +15,18 @@ public class InvestmentsStepDefs {
     private Browser browser;
     private InvestmentSimulationPageObjects investment;
     private ResultSimultionPageObjects results;
+    private ErrorsPageObjects errors;
 
     public InvestmentsStepDefs() {
         this.browser = new Browser();
         investment = new InvestmentSimulationPageObjects(browser.getDriver());
         results = new ResultSimultionPageObjects(browser.getDriver());
-        this.browser.getDriver().get("https://www.sicredi.com.br/html/ferramenta/simulador-investimento-poupanca/");
+        errors = new ErrorsPageObjects(browser.getDriver());
     }
 
-
-    @E("queira poupar por mês {string} Reais por {string} {string}")
-    public void queiraPouparPorMêsPorMeses(String valor, String tempo, String tipoTempo) {
-        investment.getValorInvestirTextField().sendKeys(valor);
-        investment.getTempoInvestimentoTextField().sendKeys(tempo);
-        investment.getTipoTempoDropDown().click();
-        if (tipoTempo.equalsIgnoreCase("Meses")) {
-            investment.getMesesButton().click();
-        } else if (tipoTempo.equalsIgnoreCase("Anos")) {
-            investment.getAnosButton().click();
-        }
+    @Before
+    public void setUp() {
+        this.browser.getDriver().get("https://www.sicredi.com.br/html/ferramenta/simulador-investimento-poupanca/");
     }
 
     @Dado("que eu tenha um usuario do Sicredi com o perfil {string}")
@@ -53,19 +43,43 @@ public class InvestmentsStepDefs {
         investment.getValorAplicarTextField().sendKeys(aplicacao);
     }
 
+    @E("queira poupar por mês {string} Reais por {string} {string}")
+    public void queiraPouparPorMêsPorMeses(String valor, String tempo, String tipoTempo) {
+        investment.getValorInvestirTextField().sendKeys(valor);
+        investment.getTempoInvestimentoTextField().sendKeys(tempo);
+        investment.getTipoTempoDropDown().click();
+
+        if (tipoTempo.equalsIgnoreCase("Meses")) {
+            investment.getMesesButton().click();
+        } else if (tipoTempo.equalsIgnoreCase("Anos")) {
+            investment.getAnosButton().click();
+        }
+    }
+
     @Quando("eu pressionar o botão Simular")
     public void euPressionarOBotãoSimulator() {
-        ((JavascriptExecutor) browser.getDriver()).executeScript("arguments[0].scrollIntoView(true);", investment.getSimularButton());
         investment.getSimularButton().click();
     }
 
 
     @Então("a simulação ira mostrar o valor esperado de {string} Reais poupados")
     public void aSimulaçãoIraMostrarOValorEsperadoDeReaisPoupados(String valorEsperado) {
-        browser.getDriver().manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
         new Actions(browser.getDriver()).moveToElement(results.getSavingsValueInvestmentLabel()).perform();
-        boolean isValorEsperadoCorreto = results.getSavingsValueInvestmentLabel().getAttribute("innerText").contains(valorEsperado);
-        assertTrue(isValorEsperadoCorreto);
+        assertTrue(results.getSavingsValueInvestmentLabel().getAttribute("innerText").contains(valorEsperado));
+    }
+
+    @Entao("eu vou visualizar a mensagem de erro {string} e a mensagem de erro {string}")
+    public void euVouVisualizarAMensagemDeErroEAMensagemDeErro(String mensagem, String mensagem2) {
+        assertTrue(
+                errors.getValorAplicarErrorLabel().getAttribute("innerText").contains(mensagem) &&
+                        errors.getValorInvestirErrorLabel().getAttribute("innerText").contains(mensagem) &&
+                        errors.getTempoErrorLabel().getAttribute("innerText").contains(mensagem2)
+        );
+    }
+
+    @After
+    public void tearDown() {
+        this.browser.quit();
     }
 }
 

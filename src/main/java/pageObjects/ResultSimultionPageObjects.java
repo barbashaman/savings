@@ -16,6 +16,6 @@ public class ResultSimultionPageObjects {
     }
 
     public WebElement getSavingsValueInvestmentLabel(){
-        return driver.findElement(By.cssSelector("span[class='valor']"));
+        return driver.findElement(By.xpath("//span[@class='valor']"));
     }
 }
