@@ -22,11 +22,10 @@ public class InvestmentsTasks {
         }
 
         investment.getValorAplicarTextField().sendKeys(aplicacao);
+
         investment.getValorInvestirTextField().sendKeys(poupanca);
         investment.getTempoInvestimentoTextField().sendKeys(tempo);
-
         investment.getTipoTempoDropDown().click();
-
         if (tipoTempo.equalsIgnoreCase("Meses")) {
             investment.getMesesButton().click();
         } else if (tipoTempo.equalsIgnoreCase("Anos")) {

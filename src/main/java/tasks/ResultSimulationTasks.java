@@ -19,7 +19,6 @@ public class ResultSimulationTasks {
     public boolean isTimeCorrect(String time, String timeType) {
         browser.getDriver().manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
         new Actions(browser.getDriver()).moveToElement(resultSimultion.getTimeInvestmentLabel()).perform();
-//        ((JavascriptExecutor) browser.getDriver()).executeScript("arguments[0].scrollIntoView(true);",resultSimultion.getTimeInvestmentLabel());
         return resultSimultion.getTimeInvestmentLabel().getAttribute("innerText").contains(time) &&
                 resultSimultion.getTimeInvestmentLabel().getAttribute("innerText").contains(timeType.toLowerCase());
     }
@@ -27,7 +26,6 @@ public class ResultSimulationTasks {
     public boolean isValueCorrect(String valor){
         browser.getDriver().manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
         new Actions(browser.getDriver()).moveToElement(resultSimultion.getSavingsValueInvestmentLabel()).perform();
-//        ((JavascriptExecutor) browser.getDriver()).executeScript("arguments[0].scrollIntoView(true);", resultSimultion.getSavingsValueInvestmentLabel());
         return resultSimultion.getSavingsValueInvestmentLabel().getAttribute("innerText").contains(valor);
     }
 }

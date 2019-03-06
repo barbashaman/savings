@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="070cb124-83f6-40dd-93f1-f7d3adfffd60" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/build/resources/test/features/InvestmentSimulation.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/InvestmentSimulationTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/InvestmentSimulationTestCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/InvestmentsStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/RunCucumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/browser/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/browser/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/InvestmentsTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/InvestmentsTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/ResultSimulationTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/ResultSimulationTasks.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -27,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="777">
-              <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+            <state relative-caret-position="148">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -36,22 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testcases/InvestmentSimulationTestCases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="63" column="79" selection-start-line="63" selection-start-column="79" selection-end-line="63" selection-end-column="79" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2773#2774#0" expanded="true" />
-                <element signature="e#2808#2809#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/api/SavingsInvestmentsAPITests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="308">
+              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,10 +53,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tasks/ResultSimulationTasks.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cucumber/RunCucumberTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="135">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/cucumber/teste.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cucumber/InvestmentsStepDefs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-11">
+              <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,7 +88,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tasks/ErrorsTasks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
+            <state relative-caret-position="330">
               <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -85,13 +99,13 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/csv/savings.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-            </state>
-          </provider>
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="50" lean-forward="true" selection-end-line="5" selection-end-column="50" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -99,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/browser/Browser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="203">
-              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+              <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,13 +123,13 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/csv/fail.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
           <provider selected="true" editor-type-id="csv-text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="83" selection-start-line="1" selection-start-column="83" selection-end-line="1" selection-end-column="83" />
             </state>
-          </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
         </entry>
       </file>
@@ -141,19 +155,26 @@
         <option value="$PROJECT_DIR$/src/test/java/steps/InvestmentSimulationSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/InvestmentsStepDefs.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/InvestmentSimulation.feature" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/tasks.java" />
         <option value="$PROJECT_DIR$/src/main/java/tasks/investmentsTasks.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/InvestmentSimulationPageObjects.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/ResultSimultionPageObjects.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tasks/ResultSimulationTasks.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/ErrorsPageObjects.java" />
         <option value="$PROJECT_DIR$/src/main/java/tasks/ErrorsTasks.java" />
         <option value="$PROJECT_DIR$/src/main/resources/csv/fail.csv" />
-        <option value="$PROJECT_DIR$/src/main/java/tasks/InvestmentsTasks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/browser/Browser.java" />
         <option value="$PROJECT_DIR$/src/main/resources/csv/savings.csv" />
         <option value="$PROJECT_DIR$/src/test/java/testcases/InvestmentSimulationTestCases.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/teste.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/MyStepdefs.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/cucumber/RunCucumberTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cucumber/MyStepdefs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tasks/InvestmentsTasks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tasks/ResultSimulationTasks.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cucumber/InvestmentsStepDefs.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/cucumber/teste.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/browser/Browser.java" />
       </list>
     </option>
   </component>
@@ -169,6 +190,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,19 +282,41 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="savings" type="b2602c69:ProjectViewProjectNode" />
+              <item name="savings" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testcases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="savings" type="b2602c69:ProjectViewProjectNode" />
+              <item name="savings" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="savings" type="b2602c69:ProjectViewProjectNode" />
+              <item name="savings" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551737045372" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../integration-services" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551837794606" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cucumber-java-skeleton" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -283,6 +327,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/cucumber" />
       <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
@@ -299,11 +344,75 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in br.com.sicredi.savings.test">
-    <configuration name="All in br.com.sicredi.savings.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.InvestmentSimulationTestCases">
+    <configuration name="Feature: teste (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/cucumber/teste.feature" />
+      <option name="GLUE" value="cucumber" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="br.com.sicredi.savings.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: teste" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: teste" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/teste.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="br.com.sicredi.savings.test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: teste" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Investimento simples com sucesso" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/cucumber/teste.feature" />
+      <option name="GLUE" value="cucumber" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="br.com.sicredi.savings.test" />
+      <option name="NAME_FILTER" value="^Investimento simples com sucesso$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^Investimento simples com sucesso$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Investimento simples com sucesso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Teste" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/teste.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="br.com.sicredi.savings.test" />
+      <option name="NAME_FILTER" value="^Teste$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Teste$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Teste" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -323,61 +432,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvestmentSimulationTestCases.savingsInvestmentFailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="br.com.sicredi.savings.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.InvestmentSimulationTestCases" />
-      <option name="METHOD_NAME" value="savingsInvestmentFailTest(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InvestmentSimulationTestCases.savingsInvestmentSuccessfulTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="br.com.sicredi.savings.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.InvestmentSimulationTestCases" />
-      <option name="METHOD_NAME" value="savingsInvestmentSuccessfulTest(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SavingsInvestmentsAPITests.savingsInvestmentsGetMockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="br.com.sicredi.savings.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api" />
-      <option name="MAIN_CLASS_NAME" value="api.SavingsInvestmentsAPITests" />
-      <option name="METHOD_NAME" value="savingsInvestmentsGetMockTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in br.com.sicredi.savings.test" />
-        <item itemvalue="JUnit.InvestmentSimulationTestCases.savingsInvestmentSuccessfulTest" />
-        <item itemvalue="JUnit.SavingsInvestmentsAPITests.savingsInvestmentsGetMockTest" />
         <item itemvalue="JUnit.InvestmentSimulationTestCases" />
-        <item itemvalue="JUnit.InvestmentSimulationTestCases.savingsInvestmentFailTest" />
+        <item itemvalue="Cucumber java.Scenario: Investimento simples com sucesso" />
+        <item itemvalue="Cucumber java.Feature: teste (1)" />
+        <item itemvalue="Cucumber java.Feature: teste" />
+        <item itemvalue="Cucumber java.Scenario: Teste" />
       </list>
     </recent_temporary>
   </component>
@@ -395,35 +456,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InvestmentSimulationTestCases_savingsInvestmentFailTest - 2019.03.04 at 18h 30m 31s.xml">
-      <configuration name="InvestmentSimulationTestCases.savingsInvestmentFailTest" configurationId="JUnit" />
+    <history-entry file="Feature__teste - 2019.03.05 at 10h 31m 01s.xml">
+      <configuration name="Feature: teste" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="InvestmentSimulationTestCases_savingsInvestmentFailTest - 2019.03.04 at 18h 31m 24s.xml">
-      <configuration name="InvestmentSimulationTestCases.savingsInvestmentFailTest" configurationId="JUnit" />
+    <history-entry file="Feature__teste - 2019.03.05 at 10h 31m 41s.xml">
+      <configuration name="Feature: teste" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="InvestmentSimulationTestCases - 2019.03.04 at 18h 31m 43s.xml">
+    <history-entry file="Feature__teste - 2019.03.05 at 10h 34m 26s.xml">
+      <configuration name="Feature: teste" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__teste - 2019.03.05 at 10h 35m 01s.xml">
+      <configuration name="Feature: teste" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__teste_(1) - 2019.03.05 at 10h 43m 16s.xml">
+      <configuration name="Feature: teste (1)" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Investimento_simples_com_sucesso - 2019.03.05 at 22h 50m 37s.xml">
+      <configuration name="Scenario: Investimento simples com sucesso" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Investimento_simples_com_sucesso - 2019.03.05 at 22h 57m 53s.xml">
+      <configuration name="Scenario: Investimento simples com sucesso" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Investimento_simples_com_sucesso - 2019.03.05 at 22h 59m 16s.xml">
+      <configuration name="Scenario: Investimento simples com sucesso" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Investimento_simples_com_sucesso - 2019.03.05 at 23h 02m 16s.xml">
+      <configuration name="Scenario: Investimento simples com sucesso" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="InvestmentSimulationTestCases - 2019.03.05 at 23h 03m 12s.xml">
       <configuration name="InvestmentSimulationTestCases" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InvestmentSimulationTestCases - 2019.03.04 at 18h 34m 45s.xml">
-      <configuration name="InvestmentSimulationTestCases" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InvestmentSimulationTestCases - 2019.03.04 at 18h 38m 43s.xml">
-      <configuration name="InvestmentSimulationTestCases" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SavingsInvestmentsAPITests_savingsInvestmentsGetMockTest - 2019.03.04 at 18h 39m 03s.xml">
-      <configuration name="SavingsInvestmentsAPITests.savingsInvestmentsGetMockTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InvestmentSimulationTestCases_savingsInvestmentSuccessfulTest - 2019.03.04 at 18h 45m 10s.xml">
-      <configuration name="InvestmentSimulationTestCases.savingsInvestmentSuccessfulTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InvestmentSimulationTestCases_savingsInvestmentSuccessfulTest - 2019.03.04 at 18h 47m 29s.xml">
-      <configuration name="InvestmentSimulationTestCases.savingsInvestmentSuccessfulTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InvestmentSimulationTestCases_savingsInvestmentSuccessfulTest - 2019.03.04 at 18h 48m 09s.xml">
-      <configuration name="InvestmentSimulationTestCases.savingsInvestmentSuccessfulTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_br_com_sicredi_savings_test - 2019.03.04 at 18h 48m 48s.xml">
-      <configuration name="All in br.com.sicredi.savings.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -438,13 +499,13 @@
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.48857453" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48857453" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.19543974" />
-      <window_info active="true" anchor="bottom" x="283" y="1107" width="1362" height="706" id="Terminal" order="8" type="FLOATING" visible="true" weight="0.2437432" />
+      <window_info anchor="bottom" x="283" y="1107" width="1362" height="706" id="Terminal" order="8" type="FLOATING" weight="0.2437432" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3297062" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3297062" />
@@ -459,7 +520,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="11" visible="true" weight="0.18516542" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="11" visible="true" weight="0.18729989" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
@@ -520,30 +581,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/InvestmentSimulationSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tasks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/InvestmentSimulation.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/InvestmentSimulationSteps.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/tasks.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/InvestmentSimulation.feature" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.cukes/cucumber-core/1.2.5/c4fee6de8487b287994b917624d3ad1ede52a4ca/cucumber-core-1.2.5-sources.jar!/cucumber/api/cli/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -558,18 +598,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/InvestmentsStepDefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/InvestmentsStepDefs.java" />
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -599,16 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tasks/ResultSimulationTasks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/ErrorsPageObjects.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -627,73 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tasks/ErrorsTasks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tasks/InvestmentsTasks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="16" column="113" selection-start-line="16" selection-start-column="113" selection-end-line="16" selection-end-column="113" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/csv/fail.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="83" selection-start-line="1" selection-start-column="83" selection-end-line="1" selection-end-column="83" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/browser/Browser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/api/SavingsInvestmentsAPITests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/csv/savings.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/reports/tests/test/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -701,14 +653,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/InvestmentSimulationTestCases.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.cukes/cucumber-java/1.2.5/fb3f585b68770a423933f0d8b9d8cac800d4157f/cucumber-java-1.2.5-sources.jar!/cucumber/runtime/java/StepDefAnnotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="63" column="79" selection-start-line="63" selection-start-column="79" selection-end-line="63" selection-end-column="79" />
+        <state relative-caret-position="120">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/api/SavingsInvestmentsAPITests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2773#2774#0" expanded="true" />
-            <element signature="e#2808#2809#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tasks/ErrorsTasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/csv/fail.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="83" selection-start-line="1" selection-start-column="83" selection-end-line="1" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cucumber/RunCucumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/csv/savings.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="50" lean-forward="true" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tasks/InvestmentsTasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cucumber/InvestmentsStepDefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/cucumber/teste.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/browser/Browser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tasks/ResultSimulationTasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="106" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="28" selection-end-column="106" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/InvestmentSimulationTestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
